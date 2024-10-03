@@ -1,0 +1,10 @@
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition effect for both transform and box-shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0); /* Start with no box shadow */
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px); /* Move the card up by 5px on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box-shadow on hover */
+  }
+  

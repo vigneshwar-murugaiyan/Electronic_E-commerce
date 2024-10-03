@@ -1,0 +1,173 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Carousel Styles */
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+  }
+  
+  .carousel__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel__slide.active {
+    opacity: 1;
+  }
+  
+  .carousel__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Add background color with transparency */
+    padding: 20px;
+  }
+  
+  .image-text h3 {
+    margin: 0;
+  }
+  
+  .image-text p {
+    margin: 5px 0;
+  }
+  .contact-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+
+  }
+  
+  .contact-image {
+    flex: 0 0 40%;
+    margin-right: 20px;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .contact-fields {
+    flex: 1;
+  }
+  
+  .contact-fields h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-fields .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-fields label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-fields input,
+  .contact-fields textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-fields textarea {
+    resize: vertical;
+  }
+  
+  .contact-fields button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-fields button:hover {
+    background-color: #0056b3;
+  }
+  /* home.css */
+
+/* Existing styles... */
+
+.product img {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+ 
+  padding: 5px; /* Add padding to separate border from image */
+}
+
+/* Additional styles... */
+.about{
+  padding-left:130px;
+  padding-right:130px;
+}
+
+ 

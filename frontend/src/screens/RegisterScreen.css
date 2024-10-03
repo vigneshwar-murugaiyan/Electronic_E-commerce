@@ -1,0 +1,28 @@
+.register-screen-row {
+    margin-left: 280px;
+  }
+  
+  .register-card {
+    width: 500px;
+  }
+  
+  .register-form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-heading {
+    margin-bottom: 1rem ;
+    text-align: center;;
+
+  }
+  
+  .register-form-container .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .register-form-container .py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  

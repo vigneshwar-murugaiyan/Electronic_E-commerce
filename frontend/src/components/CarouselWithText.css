@@ -1,0 +1,30 @@
+.carousel-with-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .carousel-content {
+    width: 50%;
+  }
+  
+  .text-content {
+    width: 45%;
+  }
+  
+  .carousel {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .carousel-image {
+    height: 330px; /* Set the desired height for all carousel images */
+  }
+  
